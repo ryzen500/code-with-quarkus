@@ -19,8 +19,8 @@ public Class Barang extends PanacheEntity {
 @JsonProperty("localdate")
  public Integer Localdate;
 
-@Column(name ="bigdecimal")
-@JsonProperty("bigdecimal")
- public void bigdecimal;
+@Column(name ="total")
+@JsonProperty("total")
+ public Bigdecimal total;
 
 }
