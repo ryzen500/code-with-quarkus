@@ -11,13 +11,13 @@ import javax.persistence.Table;
 @Table(name="Penjualan",schema ="public")
 public Class Member extends PanacheEntity {
 
-@Column(name ="nama_barang",length =50,unique =true)
-@JsonProperty("nama_barang")
- public String Namabarang;
+@Column(name ="nama_customers",length =50,unique =true)
+@JsonProperty("nama_customers)
+ public String NamaCustomers;
 
-@Column(name ="localdate",length =200)
-@JsonProperty("localdate")
- public Integer Localdate;
+@Column(name ="tanggal_transaksi",length =200)
+@JsonProperty("tanggal_transaksi")
+ public Localdate tanggal_transaksi;
 
 @Column(name ="total")
 @JsonProperty("total")
